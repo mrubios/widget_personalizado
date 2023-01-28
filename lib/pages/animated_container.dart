@@ -12,9 +12,9 @@ class AnimatedContainerPage extends StatelessWidget {
     return Scaffold(
 
       body: ListView(
-        children: [
+        children: const [
           archivador(titulo: "Lunes", subtitulo: "Examen Pascual"),          
-          archivador(titulo: "Martes",),          
+          archivador(titulo: "Martes"),          
           archivador(titulo: "Miercoles"),          
           archivador(titulo: "Jueves", subtitulo: "Peluquería"),          
           archivador(titulo: "Viernes", subtitulo: "Entrenar"),          
